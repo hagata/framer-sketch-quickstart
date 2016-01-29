@@ -1,17 +1,23 @@
+## Rapid prototyping with sketch & framer
+This is a quick start project for use with Sketch & Framer that sets up an auto-reloading prototyping environment. 
+Forked from the work done by [Darrin Henein](http://www.darrinhenein.com/rapid-prototyping-part-one/), and forked from [here](https://github.com/darrinhenein/framer-sketch-boilerplate)
+
 ### Requirements
 
-* node
+* [node](https://nodejs.org/en/)
 * Sketch.app
+* Gulp
+
 
 ### Installation
-
-1. Install sketch-tool.
+1. Install [node](https://nodejs.org/en/)
+2. Install sketch-tool.
     * via [Bohemian Coding's site](http://www.sketchapp.com/tool/)
-    * via [brew](http://brew.sh/):
-      1. Make sure you have Homebrew version `0.9.5` or higher. You can check with `$ brew --version`.
-      2. If you don't have [Homebrew Cask](http://caskroom.io/), run `brew tap caskroom/cask`
-      3. Install sketch-tool with `brew cask install sketch-tool`
-2. Run `$ npm install`
+    
+If gulp is not installed:
+  Run `$ npm install -g gulp`
+
+3. Run `$ npm install`
 
 ### Usage
 
